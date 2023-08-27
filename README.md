@@ -22,3 +22,5 @@ down menu which consists of the currently selected columns for download ( empty 
 FUTURE DIRECTIONS:
 (1) We aim to further expand this to build an unified application encompassing data collection as well. This will be a seamless workflow application with user-friendliness and an elegant UI at the forefront.
 (2) The data corpus must be hosted in an SQL based database for faster retrieval, maintenance and scalability, and synchronised function of Srinivaspura on-site data collection centres and CBR Researchers.
+
+Please note - the data provided is fictional and NOT real patient data. Patient and sample IDs have been changed.

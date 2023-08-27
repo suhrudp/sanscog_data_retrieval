@@ -1,0 +1,107 @@
+.signin-container button{
+    width: 70%;
+    margin: 5px;
+    border-radius: 10px;
+    
+}
+
+
+.signin-container button:hover{
+    background-color: lightgray;
+    transform: scale(1.05);
+}
+
+
+body.signin-body
+{
+    background-color: #e6f2ff
+}
+
+.container.signin-container
+{
+    margin-top: 10%;
+    width: 50%;
+}
+
+
+
+
+.card.signin-card
+{
+    background-color: #f4f4f4;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    margin-left: 0%;
+    width:100%;
+    
+}
+
+img.signin-img
+{
+    padding: 0;
+    margin: auto;
+    margin-bottom: 3rem;
+    display: block;
+    width: 40%;
+    margin-top: 5px;
+}
+
+.signin-form
+{
+    width: 600px;
+    margin: 0 auto;
+    transform: translateX(50px);
+
+}
+
+
+
+button.signin-btn
+{
+    width: 100%;
+    color: #ffffff;
+    background-color: #d64829;
+    margin-bottom: 1rem;
+}
+
+
+h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.download{
+    padding-left: 36%;
+}
+
+.download button:hover{
+    background-color: rgba(159, 206, 89, 0.329);
+    font-weight: bold;
+}
+
+.selected-cols{
+    width: 70%;
+    margin: auto;
+    background-color: #f4f4f4;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    
+}
+
+
+h3{
+    text-align: center;
+}
+
+
+.columns{
+
+    width: 60%;
+    margin-left: 20%;
+}
+

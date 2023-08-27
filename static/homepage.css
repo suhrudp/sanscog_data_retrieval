@@ -1,0 +1,105 @@
+.signin-container button{
+    width: 70%;
+    margin: 5px;
+    border-radius: 10px;
+    margin-left: 15%;
+}
+
+
+.signin-container button:hover{
+    background-color: lightgray;
+    transform: scale(1.05);
+}
+
+
+body.signin-body
+{
+    background-color: #e6f2ff
+}
+
+.container.signin-container
+{
+    margin-top: 8%;
+}
+
+.card.signin-card
+{
+    padding: 40px 0px 20px;
+
+    background-color: #f4f4f4;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    
+}
+
+img.signin-img
+{
+    padding: 0;
+    margin: auto;
+    margin-bottom: 3rem;
+    display: block;
+    width: 60%;
+}
+
+.signin-form
+{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.mri{
+    position: relative;
+
+    width: 84%;
+    padding-left:10%;
+}
+
+.mri button{
+    width: 50%;
+}
+
+button.signin-btn
+{
+    width: 100%;
+    color: #ffffff;
+    background-color: #d64829;
+    margin-bottom: 1rem;
+}
+
+
+h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.download{
+    padding: auto;
+}
+
+.download button{
+    width: 40%;
+    margin-left: 30%;
+}
+
+.download button:hover{
+    background-color: rgba(159, 206, 89, 0.329);
+    font-weight: bold;
+}
+
+
+#download-btn{
+    width: 50px;
+}
+
+.selected-cols{
+    width: 70%;
+    margin: auto;
+    background-color: #f4f4f4;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    
+}

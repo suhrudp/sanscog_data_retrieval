@@ -1,0 +1,48 @@
+{% extends "category.html" %}
+
+{% block title %}
+    <h3 class="'title">ApoE Data</h3>
+{% endblock %}
+
+
+{% block columns %}
+<form action="{{url_for('apoe_submit')}}" method="post">
+    <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" name="Barcode" checked>
+        <label class="form-check-label" for="Barcode">Barcode</label>
+    </div>
+
+    <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" name="Sample ID" checked>
+        <label class="form-check-label" for="Sample ID">Sample ID</label>
+    </div>
+
+    <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" name="Date of the Results">
+        <label class="form-check-label" for="Date of the Results">Date of the Results</label>
+    </div>
+
+    <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" name="DNA Sequencing ID">
+        <label class="form-check-label" for="DNA Sequencing ID">DNA Sequencing ID</label>
+    </div>
+
+    <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" name="rs429358">
+        <label class="form-check-label" for="rs429358">rs429358</label>
+    </div>
+
+    <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" name="rs7412">
+        <label class="form-check-label" for="rs7412">rs7412</label>
+    </div>
+    
+
+    <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" name="APOE">
+        <label class="form-check-label" for="APOE">APOE</label>
+    </div>
+
+    <button type="submit" style="width: 100%">Confirm</button> 
+</form>
+{% endblock %}

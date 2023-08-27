@@ -7,7 +7,7 @@ Developed with Pradipto Mondal - https://github.com/pradipto111
 ![image](https://github.com/suhrudp/sanscog_data_retrieval/assets/87201577/3894e843-deb5-4eab-bbfe-738fef6c3af4)
 ![image](https://github.com/suhrudp/sanscog_data_retrieval/assets/87201577/122ea1ba-df0e-4424-8eaf-fbc70fc75f69)
 
-A data retrieval application made using Python and Flask; with its interface written in html and styled using css.
+A data retrieval application made using Python and Flask; with its interface written in html and styled using css, with a password protected login page.
 
 While working at the Centre for Brain Research, Indian Institute of Science between June to August 2023, there was a dire need to develop a data retrieval app to efficiently access the huge corpus of data which is bound to exponentially grow in the next 10 years. Hundreds of man-hours were spent in sifting through 10+ excel sheets with 300-1500 columns per sheet, matching participant IDs, and getting 15-20 variables for the final statistical analysis. Big multinational companies such as Infosys were willing to make a customized app with a similar functionality for data retrival and collection at source. However, considering the time required to develop such an application along with a yearly subscription charge, we deciced to take matters into our own hands and build such an application.
 
